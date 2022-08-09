@@ -29,7 +29,7 @@ const Login = ({ login, auth, setAlert }) => {
   if (auth.isAuthenticated && auth.user.role == 'admin') {
     return <Navigate to="/userManagement" />;
   } else if (auth.isAuthenticated && auth.user.role == 'user') {
-    return <Navigate to="/transfer" />;
+    return <Navigate to="/mining" />;
   }
 
   return (
@@ -76,7 +76,7 @@ const Login = ({ login, auth, setAlert }) => {
                 />
               </div>
 
-              <div className=" rounded-bl-3xl rounded-tr-3xl  inline-flex justify-center items-center gap-5 text-white text-base  bg-transparent border border-white  w-full hover:border-black hover:text-2xl  rounded-lg  px-6 py-3.5 text-center mt-10">
+              <div className=" rounded-bl-3xl rounded-tr-3xl  inline-flex justify-center items-center gap-5 text-white text-base  bg-transparent border border-white  w-full hover:border-[#1b65a7] hover:text-2xl  rounded-lg  px-6 py-3.5 text-center mt-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-8 w-8"

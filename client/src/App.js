@@ -9,6 +9,10 @@ import Login from './views/Login';
 import SignUp from './views/SignUp';
 import Testimonial from './views/Testimonial/Testimonial';
 import Referral from './views/Referral/Referral';
+import ReferralAbout from './views/Referral/ReferralAbout';
+import DepoWith from './views/DepoWith/DepoWith';
+import Deposit from './views/DepoWith/Deposit';
+import Mining from './views/Mining/Mining';
 
 import Profit from './views/profit/Profit';
 import Recharge from './views/Recharge';
@@ -114,10 +118,8 @@ function App() {
                 path="/recharge"
                 element={<PrivateRoute component={Recharge} />}
               />
-              <Route
-                path="/withdraw"
-                element={<PrivateRoute component={Withdraw} />}
-              />
+              <Route path="/withdraw" element={<Withdraw />} />
+              <Route path="/deposit" element={<Deposit />} />
               <Route path="/user" element={<PrivateRoute component={User} />} />
               <Route
                 path="/wallet"
@@ -138,10 +140,7 @@ function App() {
                 element={<PrivateRoute component={AddAccount} />}
               />
 
-              <Route
-                path="/inviteFriend"
-                element={<PrivateRoute component={InviteFriend} />}
-              />
+              <Route path="/inviteFriend" element={<InviteFriend />} />
 
               <Route
                 path="/createWallet"
@@ -192,6 +191,9 @@ function App() {
               <Route path="/testimonial" element={<Testimonial />} />
               <Route path="/contact-us" element={<ContactUs />} />
               <Route path="/referral" element={<Referral />} />
+              <Route path="/referral-about" element={<ReferralAbout />} />
+              <Route path="/depo-with" element={<DepoWith />} />
+              <Route path="/mining" element={<Mining />} />
               {/* <Route path="/staking/:symbol" element={<Staking />} />
               <Route path="/withdraw/:id" element={<Withdraw />} /> */}
             </Routes>

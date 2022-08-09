@@ -6,7 +6,7 @@ import './About.css';
 function About(props) {
     return (
         <>
-           <div className="p-5 relative">
+           <div className="p-5 relative w-1/2 text-center m-auto">
                 <h1 className="text-white text-5xl text-center font-mono "><Text tid={"about"} /></h1>
                 <p class="  text-xl text-center text-white mt-5"><Text tid={'ABOUT'} /></p>
                 <p class="  text-xl text-center text-white mt-5"><Text tid={'ABOUT1'} /></p>

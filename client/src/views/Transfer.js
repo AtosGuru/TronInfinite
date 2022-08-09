@@ -80,7 +80,7 @@ function Transfer({ sendNotification }) {
               </div>
               <button
                 type="submit"
-                className="rounded-bl-3xl rounded-tr-3xl mt-5 inline-flex justify-center items-center gap-5 text-white text-xl  bg-transparent border border-white  w-full hover:border-black hover:text-2xl  rounded-lg  px-6 py-3.5 text-center"
+                className="rounded-bl-3xl rounded-tr-3xl mt-5 inline-flex justify-center items-center gap-5 text-white text-xl  bg-transparent border border-white  w-full hover:border-[#1b65a7] hover:text-2xl  rounded-lg  px-6 py-3.5 text-center"
               >
                 <b>
                   <Text tid={'confirm'} />

@@ -12,54 +12,46 @@ const Navbar = ({ auth, logout }) => {
   };
   const authLinks = (
     <div
-      className="hidden w-full md:block md:w-auto relative bg-[rgb(255,153,9)]"
+      className="hidden w-full md:block md:w-auto relative"
       id="navbar-default"
     >
       <ul className="flex flex-col p-4 mt-4 bg-transparent rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  ">
-        <Link to={'/transfer'}>
+        <Link to={'/depo-with'}>
           <p
             href="#"
             className="block py-2 pr-4 pl-3 text-white  rounded md:bg-transparent md:hover:text-blue-700 md:p-0  font-mono"
-            aria-current="page"
           >
-            <Text tid={'transfer'} />
+            Deposit / Withdrawal
           </p>
         </Link>
-        <Link to={'/recharge'}>
+
+        <Link to={'/mining'}>
           <p
             href="#"
-            className="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  font-mono"
+            className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent  md:hover:text-blue-700 md:p-0  font-mono"
           >
-            <Text tid={'recharge'} />
+            Mining
           </p>
         </Link>
-        <Link to={'/withdraw'}>
+
+        <Link to={'/referral'}>
           <p
             href="#"
-            className="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  font-mono"
+            className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent  md:hover:text-blue-700 md:p-0  font-mono"
           >
-            <Text tid={'withdraw'} />
+            Referral
           </p>
         </Link>
-        <Link to={'/profit'}>
-          <p
-            href="#"
-            className="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  font-mono"
-          >
-            <Text tid={'profit'} />
-          </p>
-        </Link>
-        {
-          <Link to={'/user'}>
+        <Link to={'/testimonial'}>
             <p
               href="#"
-              className="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  font-mono"
+              className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent  md:hover:text-blue-700 md:p-0  font-mono"
             >
-              <Text tid={'user'} />
+              Testimonial
             </p>
           </Link>
-        }
-        <li>{/* <LanguageSelector /> */}</li>
+       
+        {/* <li><LanguageSelector /></li> */}
         <li>
           <div className=" rounded-bl-3xl rounded-tr-3xl  inline-flex justify-center items-center  text-white text-base  bg-transparent border border-blue  w-full  rounded-lg  px-6  text-center hover:border hover:border-blue-500">
             <button
@@ -111,31 +103,6 @@ const Navbar = ({ auth, logout }) => {
         id="navbar-default"
       >
         <ul className="flex flex-col p-4 mt-4 bg-transparent rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  ">
-          {/* <Link to={'/profit'}>
-            <p
-              href="#"
-              className="block py-2 pr-4 pl-3 text-white  rounded md:bg-transparent md:hover:text-blue-700 md:p-0  font-mono"
-            >
-              <Text tid={'profit'} />
-            </p>
-          </Link> */}
-          <Link to={'/profit'}>
-            <p
-              href="#"
-              className="block py-2 pr-4 pl-3 text-white  rounded md:bg-transparent md:hover:text-blue-700 md:p-0  font-mono"
-            >
-              Withdrawal
-            </p>
-          </Link>
-
-          <Link to={'/about'}>
-            <p
-              href="#"
-              className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent  md:hover:text-blue-700 md:p-0  font-mono"
-            >
-              Mining
-            </p>
-          </Link>
           <Link to={'/testimonial'}>
             <p
               href="#"
@@ -144,15 +111,6 @@ const Navbar = ({ auth, logout }) => {
               Testimonial
             </p>
           </Link>
-          <Link to={'/referral'}>
-            <p
-              href="#"
-              className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent  md:hover:text-blue-700 md:p-0  font-mono"
-            >
-              Referral
-            </p>
-          </Link>
-          
           <Link to={'/login'}>
             <p
               href="#"
@@ -275,7 +233,7 @@ const Navbar = ({ auth, logout }) => {
           <Link
             to={
               auth.isAuthenticated && auth.user.role == 'user'
-                ? '/transfer'
+                ? '/mining'
                 : auth.isAuthenticated && auth.user.role == 'admin'
                 ? '/userManagement'
                 : '/'
