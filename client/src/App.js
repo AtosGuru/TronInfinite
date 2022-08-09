@@ -8,6 +8,8 @@ import Footer from './components/layout/Footer/Footer';
 import Login from './views/Login';
 import SignUp from './views/SignUp';
 import Testimonial from './views/Testimonial/Testimonial';
+import Referral from './views/Referral/Referral';
+
 import Profit from './views/profit/Profit';
 import Recharge from './views/Recharge';
 import Transfer from './views/Transfer';
@@ -189,6 +191,7 @@ function App() {
               <Route path="/privacy" element={<Privacy />} />
               <Route path="/testimonial" element={<Testimonial />} />
               <Route path="/contact-us" element={<ContactUs />} />
+              <Route path="/referral" element={<Referral />} />
               {/* <Route path="/staking/:symbol" element={<Staking />} />
               <Route path="/withdraw/:id" element={<Withdraw />} /> */}
             </Routes>

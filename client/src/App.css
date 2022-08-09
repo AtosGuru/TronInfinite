@@ -252,3 +252,7 @@ body{
     }
 
 }
+
+a>p:hover {
+  color: #1b65a7 !important;
+}

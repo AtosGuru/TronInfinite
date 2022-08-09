@@ -28,7 +28,7 @@ function Landing(props) {
               Get Started
             </p>
           </div>
-        </button>
+        </button> 
       </Link>
     </div>
   );

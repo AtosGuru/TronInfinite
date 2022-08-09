@@ -144,6 +144,14 @@ const Navbar = ({ auth, logout }) => {
               Testimonial
             </p>
           </Link>
+          <Link to={'/referral'}>
+            <p
+              href="#"
+              className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent  md:hover:text-blue-700 md:p-0  font-mono"
+            >
+              Referral
+            </p>
+          </Link>
           
           <Link to={'/login'}>
             <p
