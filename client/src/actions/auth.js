@@ -27,8 +27,6 @@ export const loadUser = () => async (dispatch) => {
       type: USER_LOADED,
       payload: res.data
     });
-
-    
   } catch (err) {
     dispatch({
       type: AUTH_ERROR
@@ -48,7 +46,6 @@ export const register = (formData) => async (dispatch) => {
     dispatch(loadUser());
 
     dispatch(setAlert('Registered Successfully!'));
-
   } catch (err) {
     const errors = err.response.data.errors;
 
@@ -89,4 +86,9 @@ export const login = (username, password) => async (dispatch) => {
 };
 
 // Logout
-export const logout = () => ({ type: LOGOUT });
+export const logout = () => (dispatch) => {
+  localStorage.removeItem('token');
+  dispatch({
+    type: LOGOUT
+  }).then((window.location.href = '/login'));
+};

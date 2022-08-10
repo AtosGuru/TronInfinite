@@ -13,7 +13,7 @@ const Mining = () => {
 
   return (
     <>
-      <div className="p-5 relative w-1/2 text-center m-auto">
+      <div className="p-5 relative  md:w-1/2 text-center m-auto">
         <h1 className="text-white text-5xl text-center font-mono ">Mining</h1>
         <p className=" text-xl text-center text-white mt-5">
           You can get 5% rewards of you deposited amount after solving puzzle
@@ -21,9 +21,9 @@ const Mining = () => {
         </p>
         <br />
         <br />
-        <div className="container grid grid-cols-1 gap-4 m-auto md:grid md:grid-cols-2 relative p-4  m-auto">
+        <div className="container grid grid-cols-1 gap-2 m-auto md:grid md:grid-cols-3 relative p-4  m-auto">
           {/* USDT Transfer */}
-          <div className="max-w-sm shadow-2xl bg-transparent rounded-lg border border-gray-200  m-auto text-center w-2/3 ">
+          <div className="max-w-sm shadow-2xl bg-transparent rounded-lg border border-gray-200  m-auto text-center w-4/5 ">
             <div className="p-5">
               <a href="#">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-white font-mono">
@@ -35,8 +35,7 @@ const Mining = () => {
           </div>
 
           {/* Online Payment   */}
-          {/* <div className="text-center text-white shadow-2xl  m-auto w-2/3"> */}
-          <div className="max-w-sm shadow-2xl bg-transparent rounded-lg border border-gray-200  m-auto text-center w-2/3">
+          <div className="max-w-sm shadow-2xl bg-transparent rounded-lg border border-gray-200  m-auto text-center w-4/5">
             <div className="p-5">
               <a href="#">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-white font-mono">
@@ -46,6 +45,19 @@ const Mining = () => {
               <p className="mb-3 font-normal text-white font-mono">1200 TRX</p>
             </div>
           </div>
+
+          <Link to={'/incentive-withdraw'}>
+            <div className="hover:border-[#1b65a7] max-w-sm shadow-2xl bg-transparent rounded-lg border border-gray-200  m-auto text-center w-4/5 ">
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white font-mono">
+                    Your Points
+                  </h5>
+                </a>
+                <p className="mb-3 text-md text-white font-mono">$1,200</p>
+              </div>
+            </div>
+          </Link>
         </div>
         <div className="m-auto text-center py-10">
           <div className="">
@@ -115,8 +127,8 @@ const Mining = () => {
                   2022-08-08 12:02
                 </th>
 
-                <td class="py-4 px-6"> $1999</td>
-                <td class="py-4 px-6">$2999</td>
+                <td class="py-4 px-6"> 2945.4 TRX</td>
+                <td class="py-4 px-6">2999 TRX</td>
               </tr>
               <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
                 <th
@@ -126,8 +138,8 @@ const Mining = () => {
                   2022-08-08 12:02
                 </th>
 
-                <td class="py-4 px-6">$1999</td>
-                <td class="py-4 px-6">$1999</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
               </tr>
               <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
                 <th
@@ -137,8 +149,8 @@ const Mining = () => {
                   2022-08-08 12:02
                 </th>
 
-                <td class="py-4 px-6">$1999</td>
-                <td class="py-4 px-6">$1999</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
               </tr>
               <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
                 <th
@@ -148,8 +160,8 @@ const Mining = () => {
                   2022-08-08 12:02
                 </th>
 
-                <td class="py-4 px-6">$1999</td>
-                <td class="py-4 px-6">$1999</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
               </tr>
               <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
                 <th
@@ -159,8 +171,8 @@ const Mining = () => {
                   2022-08-08 12:02
                 </th>
 
-                <td class="py-4 px-6"> $1999</td>
-                <td class="py-4 px-6">$1999</td>
+                <td class="py-4 px-6"> 2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
               </tr>
               <tr class="bg-white bg-gray-800 hover:bg-gray-50 hover:bg-gray-600">
                 <th
@@ -170,8 +182,8 @@ const Mining = () => {
                   2022-08-08 12:02
                 </th>
 
-                <td class="py-4 px-6">$1999</td>
-                <td class="py-4 px-6">$99</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">99 TRX</td>
               </tr>
             </tbody>
           </table>

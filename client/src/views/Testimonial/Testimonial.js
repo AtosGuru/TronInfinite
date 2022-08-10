@@ -37,8 +37,8 @@ function Testimonial(props) {
                   2022-08-08 12:02
                 </th>
                 <td class="py-4 px-6">Sliver</td>
-                <td class="py-4 px-6"> $1999</td>
-                <td class="py-4 px-6">$2999</td>
+                <td class="py-4 px-6"> 2945.4 TRX</td>
+                <td class="py-4 px-6">294.78 TRX</td>
               </tr>
               <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
                 <th
@@ -48,8 +48,8 @@ function Testimonial(props) {
                   2022-08-08 12:02
                 </th>
                 <td class="py-4 px-6">White</td>
-                <td class="py-4 px-6">$1999</td>
-                <td class="py-4 px-6">$1999</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
               </tr>
               <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
                 <th
@@ -59,8 +59,8 @@ function Testimonial(props) {
                   2022-08-08 12:02
                 </th>
                 <td class="py-4 px-6">White</td>
-                <td class="py-4 px-6">$1999</td>
-                <td class="py-4 px-6">$1999</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">295.4 TRX</td>
               </tr>
               <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
                 <th
@@ -70,8 +70,8 @@ function Testimonial(props) {
                   2022-08-08 12:02
                 </th>
                 <td class="py-4 px-6">White</td>
-                <td class="py-4 px-6">$1999</td>
-                <td class="py-4 px-6">$1999</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
               </tr>
               <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
                 <th
@@ -81,8 +81,8 @@ function Testimonial(props) {
                   2022-08-08 12:02
                 </th>
                 <td class="py-4 px-6">White</td>
-                <td class="py-4 px-6"> $1999</td>
-                <td class="py-4 px-6">$1999</td>
+                <td class="py-4 px-6"> 2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
               </tr>
               <tr class="bg-white bg-gray-800 hover:bg-gray-50 hover:bg-gray-600">
                 <th
@@ -92,8 +92,140 @@ function Testimonial(props) {
                   2022-08-08 12:02
                 </th>
                 <td class="py-4 px-6">Black</td>
-                <td class="py-4 px-6">$1999</td>
-                <td class="py-4 px-6">$99</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">99 TRX</td>
+              </tr>
+              <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
+                <th
+                  scope="row"
+                  class="py-4 px-6 font-medium text-white whitespace-nowrap text-white"
+                >
+                  2022-08-08 12:02
+                </th>
+                <td class="py-4 px-6">Sliver</td>
+                <td class="py-4 px-6"> 2945.4 TRX</td>
+                <td class="py-4 px-6">294.78 TRX</td>
+              </tr>
+              <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
+                <th
+                  scope="row"
+                  class="py-4 px-6 font-medium text-white whitespace-nowrap text-white"
+                >
+                  2022-08-08 12:02
+                </th>
+                <td class="py-4 px-6">White</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+              </tr>
+              <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
+                <th
+                  scope="row"
+                  class="py-4 px-6 font-medium text-white whitespace-nowrap text-white"
+                >
+                  2022-08-08 12:02
+                </th>
+                <td class="py-4 px-6">White</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">295.4 TRX</td>
+              </tr>
+              <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
+                <th
+                  scope="row"
+                  class="py-4 px-6 font-medium text-white whitespace-nowrap text-white"
+                >
+                  2022-08-08 12:02
+                </th>
+                <td class="py-4 px-6">White</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+              </tr>
+              <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
+                <th
+                  scope="row"
+                  class="py-4 px-6 font-medium text-white whitespace-nowrap text-white"
+                >
+                  2022-08-08 12:02
+                </th>
+                <td class="py-4 px-6">White</td>
+                <td class="py-4 px-6"> 2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+              </tr>
+              <tr class="bg-white bg-gray-800 hover:bg-gray-50 hover:bg-gray-600">
+                <th
+                  scope="row"
+                  class="py-4 px-6 font-medium text-white whitespace-nowrap text-white"
+                >
+                  2022-08-08 12:02
+                </th>
+                <td class="py-4 px-6">Black</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">99 TRX</td>
+              </tr>
+              <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
+                <th
+                  scope="row"
+                  class="py-4 px-6 font-medium text-white whitespace-nowrap text-white"
+                >
+                  2022-08-08 12:02
+                </th>
+                <td class="py-4 px-6">Sliver</td>
+                <td class="py-4 px-6"> 2945.4 TRX</td>
+                <td class="py-4 px-6">294.78 TRX</td>
+              </tr>
+              <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
+                <th
+                  scope="row"
+                  class="py-4 px-6 font-medium text-white whitespace-nowrap text-white"
+                >
+                  2022-08-08 12:02
+                </th>
+                <td class="py-4 px-6">White</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+              </tr>
+              <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
+                <th
+                  scope="row"
+                  class="py-4 px-6 font-medium text-white whitespace-nowrap text-white"
+                >
+                  2022-08-08 12:02
+                </th>
+                <td class="py-4 px-6">White</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">295.4 TRX</td>
+              </tr>
+              <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
+                <th
+                  scope="row"
+                  class="py-4 px-6 font-medium text-white whitespace-nowrap text-white"
+                >
+                  2022-08-08 12:02
+                </th>
+                <td class="py-4 px-6">White</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+              </tr>
+              <tr class="bg-white border-b bg-gray-800 border-gray-700 hover:bg-gray-50 hover:bg-gray-600">
+                <th
+                  scope="row"
+                  class="py-4 px-6 font-medium text-white whitespace-nowrap text-white"
+                >
+                  2022-08-08 12:02
+                </th>
+                <td class="py-4 px-6">White</td>
+                <td class="py-4 px-6"> 2945.4 TRX</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+              </tr>
+              <tr class="bg-white bg-gray-800 hover:bg-gray-50 hover:bg-gray-600">
+                <th
+                  scope="row"
+                  class="py-4 px-6 font-medium text-white whitespace-nowrap text-white"
+                >
+                  2022-08-08 12:02
+                </th>
+                <td class="py-4 px-6">Black</td>
+                <td class="py-4 px-6">2945.4 TRX</td>
+                <td class="py-4 px-6">99 TRX</td>
               </tr>
             </tbody>
           </table>

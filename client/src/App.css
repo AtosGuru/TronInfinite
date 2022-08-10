@@ -256,3 +256,8 @@ body{
 a>p:hover {
   color: #1b65a7 !important;
 }
+
+.active-btn {
+  color: #1b65a7;
+  border-color: #1b65a7;
+}

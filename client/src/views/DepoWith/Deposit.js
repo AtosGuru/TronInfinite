@@ -86,7 +86,7 @@ function Deposit({ sendNotification }) {
               </h1>
               <ul className="list-disc p-5">
                 <li className="text-white text-md text-left">
-                  Min deposit amount is 10.00 TRX.
+                Min deposit amount is 10$.
                 </li>
                 <li className="text-white text-md text-left">
                   <Text tid={'precaution3'} />

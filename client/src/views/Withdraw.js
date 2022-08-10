@@ -43,7 +43,7 @@ function Withdraw({ sendNotification }) {
                   type={'text'}
                   name={'account'}
                   onChange={onChange}
-                  placeholder="Account name"
+                  placeholder="0x..................."
                   className="py-4 px-5 w-full  bg-transparent border border-white mt-2 rounded-bl-3xl rounded-tr-3xl"
                 />
               </div>
@@ -97,14 +97,14 @@ function Withdraw({ sendNotification }) {
               </h1>
               <ul className="list-disc p-5">
                 <li className="text-white text-md text-left">
-                  Min withdraw amount is 10.00 TRX.
+                  Min withdraw amount is 10$.
                 </li>
                 <li className="text-white text-md text-left">
                   <Text tid={'precaution3'} />
                 </li>
               </ul>
-              <br/>
-              <br/>
+              <br />
+              <br />
               <Link to={'/depo-with'}>
                 <button
                   href="#"

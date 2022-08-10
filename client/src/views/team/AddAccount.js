@@ -48,7 +48,7 @@ const AddAccount = ({ addTeamAccount, setAlert }) => {
                 </p>
                 <input
                   type={'text'}
-                  placeholder="Account name"
+                  placeholder="Wallet Address"
                   name="accountName"
                   onChange={onChange}
                   className="py-4 px-5 w-full  border border-white bg-transparent mt-2 rounded-bl-3xl rounded-tr-3xl"

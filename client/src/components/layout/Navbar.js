@@ -50,6 +50,14 @@ const Navbar = ({ auth, logout }) => {
               Testimonial
             </p>
           </Link>
+        {/* <Link to={'/package'}>
+            <p
+              href="#"
+              className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent  md:hover:text-blue-700 md:p-0  font-mono"
+            >
+              Package
+            </p>
+          </Link> */}
        
         {/* <li><LanguageSelector /></li> */}
         <li>

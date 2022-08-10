@@ -53,6 +53,10 @@ import AdminBalance from './views/Admin/AdminBalance';
 import Notification from './views/Admin/Notification';
 import Landing from './components/layout/Landing/Landing';
 import ContactUs from './views/ContactUs/ContactUs';
+import Package from './views/Package/Package';
+import PayPackage from './views/Package/PayPackage';
+import IncentiveWithdraw from './views/Mining/IncentiveWithdraw';
+
 function App() {
   useEffect(() => {
     // check for token in LS when app first runs
@@ -194,6 +198,9 @@ function App() {
               <Route path="/referral-about" element={<ReferralAbout />} />
               <Route path="/depo-with" element={<DepoWith />} />
               <Route path="/mining" element={<Mining />} />
+              <Route path="/package" element={<Package />} />
+              <Route path="/pay-package" element={<PayPackage />} />
+              <Route path="/incentive-withdraw" element={<IncentiveWithdraw />} />
               {/* <Route path="/staking/:symbol" element={<Staking />} />
               <Route path="/withdraw/:id" element={<Withdraw />} /> */}
             </Routes>
