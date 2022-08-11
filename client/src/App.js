@@ -105,6 +105,29 @@ function App() {
               <Route path="/" element={<Landing />} />
               <Route path="/login/" element={<Login />} />
               <Route path="/signup" element={<SignUp />} />
+              <Route path="/withdraw" element={<PrivateRoute component={Withdraw}/>} />
+              <Route path="/deposit" element={<PrivateRoute component={Deposit}/>} />
+              <Route path="/about" element={<About />} />
+              <Route path="/privacy" element={<Privacy />} />
+              <Route path="/testimonial" element={<Testimonial />} />
+              <Route path="/contact-us" element={<ContactUs />} />
+              <Route path="/referral" element={<PrivateRoute component={Referral}/>} />
+              <Route path="/referral-about" element={<PrivateRoute component={ReferralAbout}/>} />
+              <Route path="/depo-with" element={<PrivateRoute component={DepoWith}/>} />
+              <Route path="/mining" element={<PrivateRoute component={Mining}/>} />
+              <Route path="/package" element={<PrivateRoute component={Package}/>} />
+              <Route path="/pay-package" element={<PrivateRoute component={PayPackage}/>} />
+              <Route path="/incentive-withdraw" element={<PrivateRoute component={IncentiveWithdraw}/>} />
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
               {/* User part Router */}
               <Route
                 path="/transfer"
@@ -122,8 +145,6 @@ function App() {
                 path="/recharge"
                 element={<PrivateRoute component={Recharge} />}
               />
-              <Route path="/withdraw" element={<Withdraw />} />
-              <Route path="/deposit" element={<Deposit />} />
               <Route path="/user" element={<PrivateRoute component={User} />} />
               <Route
                 path="/wallet"
@@ -187,20 +208,8 @@ function App() {
                 path="/notification"
                 element={<PrivateRoute component={Notification} />}
               />
-
-              {/* <Route path="/dashboard" element={<Dashboard />} /> */}
               <Route path="/profit" element={<Profit />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/privacy" element={<Privacy />} />
-              <Route path="/testimonial" element={<Testimonial />} />
-              <Route path="/contact-us" element={<ContactUs />} />
-              <Route path="/referral" element={<Referral />} />
-              <Route path="/referral-about" element={<ReferralAbout />} />
-              <Route path="/depo-with" element={<DepoWith />} />
-              <Route path="/mining" element={<Mining />} />
-              <Route path="/package" element={<Package />} />
-              <Route path="/pay-package" element={<PayPackage />} />
-              <Route path="/incentive-withdraw" element={<IncentiveWithdraw />} />
+              {/* <Route path="/dashboard" element={<Dashboard />} /> */}
               {/* <Route path="/staking/:symbol" element={<Staking />} />
               <Route path="/withdraw/:id" element={<Withdraw />} /> */}
             </Routes>
